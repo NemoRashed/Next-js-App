@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <h1>nemoo</h1>
+        <Image src="memorize.PNG" />
       </div>
       <Link href="/">
         <a>Home</a>
@@ -14,7 +15,7 @@ function Navbar() {
         <a>About</a>
       </Link>
       <Link href="/nemo">
-        <a>nemo list</a>
+        <a>nemo-list</a>
       </Link>
     </nav>
   );

@@ -8,8 +8,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Next js App</title>
+      </Head>
       <div>
         <h1 className={styles.title}>Home Page</h1>
+
         <p className={styles.text}>
           lorem In publishing and graphic design, Lorem ipsum is a placeholder
           text commonly used to demonstrate the visual form of a document or a
