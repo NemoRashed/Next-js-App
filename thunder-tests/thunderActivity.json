@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "85cfdc3b-a12e-4a32-bb5b-e0defe073b27",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/stories",
+    "url": "http://localhost:3000/api/stories",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-04-11T18:14:53.465Z",
+    "modified": "2022-04-11T18:40:17.999Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
